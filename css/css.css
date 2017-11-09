@@ -1,0 +1,124 @@
+.navbar{
+	border-radius: 0px;
+	margin: 0;
+}
+.navbar-inverse{
+	border-radius: 0px;
+	background-color: #037ef3;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: white;
+}
+img#logo{
+	height: 32px;
+	margin-top: 10px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: white;
+}
+.navbar-nav{
+	margin: 0 0 0 10%;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: #00bfff;
+}
+.article1{
+	background: url("std_landing.jpg");
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+.article2{
+	height: 700px;
+	background-color: #037ef3;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 30px;
+}
+h3{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 30px 80px 30px 80px;
+	letter-spacing: 1.2px;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
+@media screen and (min-width: 992px){
+	h1{
+		font-size: 80px;
+		text-align: center;
+		color: white;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	h3{
+		font-size: 22px;
+		color: white;
+		text-align: center;
+		padding: 30px 80px 30px 80px;
+		letter-spacing: 1.2px;
+		line-height: 1.2em;
+	}
+	.article1{
+		height: 700px;
+	}
+	.article2{
+		height: 200px;
+	}
+}
+.row{
+	margin: 0;
+}
+
+.btn{
+	font-size: 25px;
+	padding: 15px 35px 15px 35px;
+	background:  #037ef3;
+	border: 0px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.count{
+	font-size: 50px;
+}
+.timer
+{width:200px; margin: auto;text-align:center;display:block;font-size:50px;font-weight: bold}
+.timer1
+{width:200px; margin: auto;text-align:center;display:block;font-size:50px;font-weight: bold}
+.timer2
+{width:200px; margin: auto;text-align:center;display:block;font-size:50px;font-weight: bold}
+.timer::after{
+	content: "+"
+}
+.timer1::after{
+	content: "+"
+}
+.timer1::before{
+	content: url(glyphicon-map.png);
+}
+.timer2::after{
+	content: "+"
+}
+.timer::before{
+}
+/*.glyphicon{
+	font-weight: 300;
+}*/
+p{
+	text-align: center;
+}
+/*p:before{
+	content: attr(class,"glyphicons glyphicons-charts");
+}
+*/
